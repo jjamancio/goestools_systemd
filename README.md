@@ -1,5 +1,5 @@
 # goestools_systemd
-Unit files for goestools
+Arquivos unit para executar os processos do goestools
 
 Esse repositório disponibiliza unit files para executar o goestools como serviço no Linux.
 
@@ -14,7 +14,7 @@ Para trabalhar com o airspy, altere todas as entradas no arquivo:
 - De: rtlsdr
 - Para: airspy
 
-Se você ainda não instalou os binário do goestools para Linux, considere seguir a documentação oficial no link: 
+Se você ainda não instalou os binários do goestools para Linux, considere seguir a documentação oficial no link: 
 
 https://pietern.github.io/goestools/installation.html
 
