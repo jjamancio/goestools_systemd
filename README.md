@@ -1,12 +1,12 @@
 # goestools_systemd
-Arquivos unit para executar os processos do goestools
-
 Esse repositório disponibiliza unit files para executar o goestools como serviço no Linux.
 
 Esse README considera que o goestools esteja instalado e funcionando (recebendo imagens).
 
-- Faça os ajustes necessários no arquivo de configuração goesrecv.conf 
-- Altere o parãmetro "WorkDirectory" no arquivo goesproc.service
+Ao utilizar esse repositório, vocẽ deverá:
+
+- Ajustar o arquivo de configuração goesrecv.conf 
+- Alterar o parâmetro "WorkDirectory" no arquivo goesproc.service de acordo com o seu ambiente
 
 O arquivo goesrecv.conf está configurado para trabalhar com o dongle RTL-SDR V3.
 Para trabalhar com o airspy, altere todas as entradas no arquivo: 
