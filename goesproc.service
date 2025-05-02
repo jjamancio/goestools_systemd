@@ -2,7 +2,7 @@
 Description=goesproc
 
 [Service]
-WorkingDirectory=/media/joao/dados/goesdata
+WorkingDirectory=/home/pi/dados/goesdata
 ExecStart=/usr/local/bin/goesproc -c /etc/goestools/goesproc-goesr.conf -m packet  --subscribe tcp://127.0.0.1:5004
 User=pi
 Group=pi
