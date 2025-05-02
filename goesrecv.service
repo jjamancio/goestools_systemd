@@ -3,8 +3,8 @@ Description=goesrecv process
 
 [Service]
 ExecStart=/usr/local/bin/goesrecv -v -i 1 -c /etc/goestools/goesrecv.conf
-User=joao
-Group=joao
+User=pi
+Group=pi
 Restart=always
 
 [Install]
